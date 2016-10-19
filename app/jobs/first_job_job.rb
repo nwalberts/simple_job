@@ -1,4 +1,4 @@
-class FirstJobJob < ApplicationJob
+class FirstJob < ApplicationJob
   queue_as :default
 
   def perform(obj)
